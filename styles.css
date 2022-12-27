@@ -108,14 +108,21 @@ padding:0px;
 }
 
 footer{
-    display: flex;
-    flex-direction: row;
-    Justify-content: space-between;
-    align-items: center;
-    align-content: center;
     background-color:#333333;
     padding:0px 20px 0px 0px;
-    color:whitesmoke;
-    height:fit-content;
     width:100%;
 }
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    Justify-content: flex-start;
+    gap:30px;
+    align-items: center;
+    align-content: center;
+    padding:0px 20px 20px 20px;
+}
+
+.foot:hover{
+    font-weight: bold;
+    }
