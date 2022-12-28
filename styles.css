@@ -85,7 +85,7 @@ width:25%;
 }
 
 .hola{
-    padding:20px 20px 40px 20px;
+    padding:40px 20px 60px 20px;
     background-color: #333333;
     color:whitesmoke;
 }
@@ -110,20 +110,105 @@ width:25%;
     align-content: center;
     padding:0px 20px 20px 20px;
 }
-.lema{
-    margin:0px 20px 0px 20px;
+.container1{
+    display: flex;
+    flex-direction: column;
+    Justify-content: space-evenly;
+    gap:30px;
+    align-items: center;
+    padding:0px 0px 0px 20px;
 }
 
+.leather{
+    display: flex;
+    flex-direction:row;
+}
+
+.piel{
+  box-shadow: 8px 8px 16px 4px rgba(0, 0, 0, 0.2);
+}
+
+.lema{
+    padding:0px 20px 80px 20px;
+}
+
+
 .recaudacion{
-    margin:0px 20px 0px 20px;
+    padding:40px 20px 40px 20px;
+    background-color: #333333;
+}
+
+.container2{
+height:300px;
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 1fr 1fr;
+grid-gap:10px;
+align-content: space-evenly;
+justify-items: center;
+align-items:start;
+color:whitesmoke;
+}
+
+.box{
+font-size: 24px;
+justify-items: center;
+box-shadow: 2px 8px 16px 2px #1a1a1a;
+padding:16px;
+height:80px;
+width: 300px;
+text-align: center;
+vertical-align:middle;
+}
+
+.euro{
+    font-size: 32px;
 }
 
 .contribuye{
-    margin:0px 20px 0px 20px;
+    padding:40px 0px 40px 20px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    align-items: center;
+    Justify-content: center;
+    padding:0px 0px 20px 0px;
+}
+
+.conteuro{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    Justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:16px;
+    height:400px;
+    width: 300px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+button{
+    width: 98%;
+    background-color:#996600;
+    color:whitesmoke;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .donantes{
-    margin:0px 20px 0px 20px;
+    margin:20px 20px 40px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:16px;
 }
 
 footer{
@@ -132,7 +217,7 @@ footer{
     width:100%;
 }
 
-.container3{
+.container5{
     display: flex;
     flex-direction: row;
     Justify-content: flex-start;
